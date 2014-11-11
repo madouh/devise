@@ -4,12 +4,17 @@ ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor'
+end
 
 # Use Devise for user authentication
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => '49aebde'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.10'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
