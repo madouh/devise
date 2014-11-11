@@ -13,7 +13,7 @@ end
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => '49aebde'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.10'
+gem 'sqlite3'
 
 
 # Use SCSS for stylesheets
